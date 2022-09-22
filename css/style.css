@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+ 
+    font-family:'DM Serif Display', serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color:#7895b2;
+  background-size: auto;
+  position: relative;
+
+}
+
+.header{
+  background-color: #16213e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 5px 10%;
+}
+
+.header .logo {
+  cursor: pointer;
+}
+
+.header .logo img {
+  height: 50px;
+  width: auto;
+  transition: 0.3s;
+}
+
+.header .logo img:hover {
+  transform: scale(1.2);
+}
+
+.header .nav-links {
+  list-style:disc;
+}
+
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+  transform: scale(1.1);
+}
+.header .nav-links a {
+  font-size: 700;
+  color: #eceff1;
+  text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+  color: #141414;
+}
+
+.header .btn button {
+  font-weight: 2.5rem;
+  color: #03045e;
+  padding: 10px;
+  background: #eceff1;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover {
+  background-color: #e2f1f8;
+  color: #ac4425;
+  transform: scale (1.1);
+}
+
+
+footer {
+  background-color:  #16213e;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+

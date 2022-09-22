@@ -1,0 +1,25 @@
+.btn-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 300px;   /* para manipular el tamaño o hueco de los botones */
+    padding: 12px;
+  } /* contenedor de botones */
+  
+  .btn2 {
+      display: inline-flex; /* para que pueda haber más objetos a un lado */
+      align-items: center; /* alinear texto de forma vertical */
+      justify-content: center; /* alinear texto de forma horizontal */
+      width: 100%;
+      height: 70px;
+      background: #03045e;
+      font-family: 'Nunito', sans-serif;
+      font-size: 20px;
+      border-radius: 50px; /* darle curva a las esquinas de los botones */  
+    } /* estilo de los botones */ 
+  
+    .btn-container a {
+      color: white;
+      text-decoration: none; /* para quitar las lineas de la tag a */
+    } /* estilo de las tag a del contenedor de botones */
+  
